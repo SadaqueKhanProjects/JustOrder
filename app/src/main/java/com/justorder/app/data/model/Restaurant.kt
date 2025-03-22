@@ -9,7 +9,6 @@ data class Restaurant(
 )
 
 data class RestaurantResponse(
-
-    val restaurant: List<Restaurant>
+    val restaurant: List<Restaurant>  // Ensure this matches API response
 )
 
